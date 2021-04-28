@@ -2,6 +2,13 @@ const express = require("express");
 
 const app = express();
 
+const usuarios = [
+  { nome: "Jancer", idade: 19 },
+  { nome: "Aline", idade: 24 },
+  { nome: "Maria", idade: 15 },
+  { nome: "Eduardo", idade: 22 },
+];
+
 app.get("/", (req, res) => {
   res.status(200).send("OK");
 });
