@@ -1,10 +1,12 @@
 const express = require("express");
 const fs = require("fs");
 const app = express();
+const router = require("./routes/login_criar");
 
 const dadosLocais = JSON.parse(fs.readFileSync("dados.json"));
 
 app.use(express.json());
+app.use(router);
 
 const usuarios = [
   { nome: "Jancer", idade: 19 },
@@ -15,24 +17,6 @@ const usuarios = [
 
 app.get("/", (req, res) => {
   res.status(200).send("OK");
-});
-
-app.post("/login", (req, res) => {
-  res.status(200).send("OK Login");
-});
-
-app.post("/criar", (req, res) => {
-  res.status(200).send("OK Criar");
-});
-
-app.post("/usuarios", (req, res) => {
-  const { nome, email, saldo } = req.body;
-  const dadosProcessados = { nome, email, saldo };
-  dadosLocais.push(dadosProcessados);
-  const dadosConvertidos = JSON.stringify(dadosLocais, null, 2);
-  fs.writeFile("dados.json", dadosConvertidos, () => {
-    res.status(200).send("OK");
-  });
 });
 
 app.listen(3000, () => {
