@@ -18,5 +18,17 @@
     "nome": "Jancer",
     "email": "test@gmail.com",
     "saldo": 100
+  },
+  {
+    "nome": "Jancer1",
+    "email": "test@gmail.comm",
+    "dados": {},
+    "hash": "$2b$10$m.9VM3jPl9gI6dUQ.624bOdCxDsWwm01bPhR3A9fzy0KnMr9CF8be"
+  },
+  {
+    "nome": "Jance",
+    "email": "test@gmail.co",
+    "dados": {},
+    "hash": "$2b$10$wNnxH4rjEKciaBA846Hx6ulQrgY6r0wGKzP0sLlRU5XFE8CwgiO5."
   }
 ]

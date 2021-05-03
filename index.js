@@ -3,8 +3,6 @@ const fs = require("fs");
 const app = express();
 const router = require("./routes/login_criar");
 
-const dadosLocais = JSON.parse(fs.readFileSync("dados.json"));
-
 app.use(express.json());
 app.use(router);
 
