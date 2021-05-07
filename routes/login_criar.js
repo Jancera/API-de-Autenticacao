@@ -9,7 +9,7 @@ router.post("/login", (req, res) => {
   const { email, senha } = req.body;
 
   if (!email || !senha) {
-    res.status(433).send("Você deve definir email e senha");
+    res.status(422).send("Você deve definir email e senha");
   }
 
   const usuario = dadosLocais.find((user) => user.email === email);
