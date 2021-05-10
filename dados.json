@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2724433211,
+    "nome": "Jancer",
+    "email": "test@gmail.co",
+    "dados": {},
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjcyNDQzMzIxMSwiaWF0IjoxNjIwNTMyMTA5fQ.RRQedVqkgFLy0quoDs7JsBJp7u9HYdjOGByBm4HK3Ug",
+    "hash": "$2b$10$sDzL/7LwveCfSc7TtEsxWOF9qw6HXh0a6zCt9FgfYZRKTlytW6LFe"
+  },
+  {
+    "id": 8304594018,
+    "nome": "Jancer1",
+    "email": "test@gmail.co1",
+    "dados": {},
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ODMwNDU5NDAxOCwiaWF0IjoxNjIwNTM0MTg5fQ.iPzJ1xdfuU6E7RRfW5eHOVCP0O_2RpNwONfPFX9CIIQ",
+    "hash": "$2b$10$lVICocQSbPnocfwaee/6Ou9lwr2l6w/LhXr.ccdccJM6YXwVdZGhK"
+  }
+]
